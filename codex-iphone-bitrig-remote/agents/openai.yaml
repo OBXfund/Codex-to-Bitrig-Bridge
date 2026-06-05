@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codex iPhone to Bitrig Remote"
+  short_description: "Start iPhone projects and bridge to Bitrig Remote"
+  default_prompt: "Use $codex-iphone-bitrig-remote to create a new iPhone app project from this prompt and make it visible in Bitrig Remote."
+policy:
+  allow_implicit_invocation: true

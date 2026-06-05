@@ -1,0 +1,7 @@
+{
+  "kind": "codex-iphone-seed",
+  "name": "CodexPhoneSketch",
+  "requestedName": "Codex Phone Sketch",
+  "summary": "A small sketchpad app started from Codex on iPhone for Bitrig Remote.",
+  "target": "Bitrig native Agent, iPhone"
+}

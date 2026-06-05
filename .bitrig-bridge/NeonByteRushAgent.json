@@ -1,0 +1,29 @@
+{
+  "agentName": "NeonByteRushAgent",
+  "bundleNames": [],
+  "markers": {
+    "iosCapable": true,
+    "packageSwift": true,
+    "projectYml": false,
+    "swiftFiles": [
+      "/Users/lonniejordan/Documents/Bitrig Test/GeneratedProjects/NeonByteRush/Package.swift",
+      "/Users/lonniejordan/Documents/Bitrig Test/GeneratedProjects/NeonByteRush/Sources/NeonByteRush/ContentView.swift",
+      "/Users/lonniejordan/Documents/Bitrig Test/GeneratedProjects/NeonByteRush/Sources/NeonByteRush/NeonByteRushApp.swift"
+    ],
+    "xcodeproj": [],
+    "xcworkspace": []
+  },
+  "needsUserConfirmation": false,
+  "nextSteps": [
+    "Open Bitrig on the host Mac.",
+    "Choose Agent, then New Project. Do not choose Classic.",
+    "Paste the prompt from /Users/lonniejordan/Documents/Bitrig Test/.bitrig-bridge/NeonByteRushAgent.bitrig-agent-prompt.txt.",
+    "After Bitrig finishes, run: python3 tools/codex_iphone_to_bitrig.py verify --name \"NeonByteRushAgent\"",
+    "Refresh Bitrig Remote on iPhone and check Agent."
+  ],
+  "prompt": "Create a native Bitrig Agent iPhone project named NeonByteRushAgent using Codex. Use the visible Agent project name NeonByteRushAgent everywhere Bitrig indexes project names; do not leave it named New Project. Create this as a native Bitrig Agent project, not Classic. Build a lightweight, buildable SwiftUI shell that represents the local Codex iOS project NeonByteRush at /Users/lonniejordan/Documents/Bitrig Test/GeneratedProjects/NeonByteRush. Do not copy or compile the entire source checkout unless needed for a tiny preview shell. Include the source project name and checkout path visibly in the app so the user knows what this Agent project represents. Detected project context: Package.swift present. Keep the Bitrig app iPhone-only and SwiftUI-based. Use a unique target name NeonByteRushAgent and unique bundle identifier app.bitrig.agent.neonbyterushagent. Create a local BitrigAgent.json file in the Bitrig project root with JSON metadata: kind \"agent-project\", name \"NeonByteRushAgent\", sourceProjectName \"NeonByteRush\", sourceProjectPath \"/Users/lonniejordan/Documents/Bitrig Test/GeneratedProjects/NeonByteRush\", platforms [\"iPhone\"], and a short projectSummary.",
+  "promptPath": "/Users/lonniejordan/Documents/Bitrig Test/.bitrig-bridge/NeonByteRushAgent.bitrig-agent-prompt.txt",
+  "resultPath": "/Users/lonniejordan/Documents/Bitrig Test/.bitrig-bridge/NeonByteRushAgent.json",
+  "sourceProjectName": "NeonByteRush",
+  "sourceProjectPath": "/Users/lonniejordan/Documents/Bitrig Test/GeneratedProjects/NeonByteRush"
+}
